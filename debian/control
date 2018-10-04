@@ -1,0 +1,17 @@
+Source: mrpdi-cli
+Section: utils
+Priority: optional
+Maintainer: Equipo LliureX <lliurex@cult.gva.es>
+Uploaders: M.Angel Juan <m.angel.juan@gmail.com>, Raul Rodrigo Segura <lliurex_devel3@edu.gva.es>, Hector Garcia Huerta <lliurex_devel1@edu.gva.es>, Daniel Duran Vecino <daduve@gmail.com>, Juanma Navarro <juanma1980@gmail.com>, Juan Ramon Pelegrina <juapesai@hotmail.com>
+Build-Depends: debhelper (>= 7.0), cdbs, llxcfg-dev (>=1:0.40), mrpdi-dev (>=2.2), pkg-config, libx11-dev, libconfig++-dev
+Standards-Version: 3.9.5
+Homepage: http://lliurex.net
+
+Package: mrpdi-cli
+Architecture: any
+Depends: mrpdi-core (>= 2.2), libconfig++9v5
+Description: Command line mrpdi tools
+ Command line mrpdi tools
+ 
+
+
