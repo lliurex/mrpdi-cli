@@ -1,4 +1,4 @@
-mrpdi-cli (2.7.2) bionic; urgency=medium
+mrpdi-cli (2.7.2) xenial; urgency=medium
 
   * Master tag: 12107a46b3493dbf09e3284618c25a6ab94bd9bb
   * Removed march=native flag
