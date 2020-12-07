@@ -1,7 +1,7 @@
 
 APP_NAME=mrpdi-cli
 
-COMPILER_FLAGS=-O3 -march=native `pkg-config libconfig++ --cflags`
+COMPILER_FLAGS=-O3 `pkg-config libconfig++ --cflags`
 LINKER_FLAGS=`pkg-config mrpdi --libs` `pkg-config libconfig++ --libs`
 
 
